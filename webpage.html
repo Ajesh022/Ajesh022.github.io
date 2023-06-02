@@ -1,0 +1,337 @@
+<html>
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Webpage</title>
+        <link rel="stylesheet" href="webpage.css" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    </head>
+    <body>
+       <header>
+           <a href="#" class="logo">Agitator</a>
+           <ul class="nav">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#games">Games</a></li>
+               <li><a href="#tournaments">Tournaments</a></li>
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+           <div class="action">
+               <div class="searchBx">
+                   <a href="#"><i class='bx bx-search'></i></a>
+                   <input type="text" placeholder="Search Game">
+               </div>
+           </div>
+           <div class="toggleMenu" onclick="toggleMenu();"></div>
+       </header>
+
+       <!-- Home Banner -->
+            <div class="home animeX" id="home">
+               <div class="text">
+                 <h2>Evolve your gaming experience!</h2>
+                  <p>
+                   Embark on an unforgettable gaming adventure. Join us now and immerse yourself in thrilling gameplay, 
+                    fierce competition, and endless fun!
+                    <br>
+                    <a href="#" class="btn">Join Now</a>
+                </div> 
+                    <img src="Michael_Transparent-GTAV.webp">
+                  </p>
+            </div>
+
+        <!-- About -->
+        <div class="about animeX" id="about">
+            <div class="text">
+                <h5>About Us</h5>
+                <p>
+                    Immerse yourself in the ultimate gaming experience with our dynamic website. 
+                    Discover a diverse range of genres, from action-packed adventures to mind-bending puzzles. 
+                    Engage with a vibrant community, compete in tournaments, and stay up-to-date with the latest gaming news and reviews.
+                    Get ready to level up your gaming journey!
+                    <br>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                    <img src="xbox.png"><br><img src="playstation-4-movies-png-logo-20.png">
+                </p>
+        </div>
+
+        <!-- Games -->
+        <div class="games animeX" id="games">
+            <h2>Popular Games</h2>
+            <ul>
+                <li class="list active" data-filter="all">All</li>
+                <li class="list" data-filter="pc">Pc games</li>
+                <li class="list" data-filter="mobile">Mobile games</li>
+            </ul>
+            <div class="cardbx">
+                <div class="card" data-item="pc">
+                    <img src="grand_theft_auto_v.png">
+                    <div class="content">
+                        <h4>Grand Theft Auto</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>65AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="minecraft.jpeg">
+                    <div class="content">
+                        <h4>Minecraft</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>40AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="t_500x300.jpeg">
+                    <div class="content">
+                        <h4>Call Of Duty</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>50AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="t_500x300 (1).jpeg">
+                    <div class="content">
+                        <h4>PUBG: Battlegrounds</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>45AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card" data-item="pc">
+                    <img src="fall-guys-download-for-pc-1536x2048.jpg">
+                    <div class="content">
+                        <h4>Fall Guys</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>10AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="darkside.jpeg">
+                    <div class="content">
+                        <h4>Darksiders III</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>10AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="ghosthunnter.jpeg">
+                    <div class="content">
+                        <h4>Ghostrunner</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>10AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="cyber.jpeg">
+                    <div class="content">
+                        <h4>Cyberpunk 2077</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>30AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="roblox.jpeg">
+                    <div class="content">
+                        <h4>Roblox</h4>
+                        <div class="progress-line"><span></span></div>
+                        <div class="info">
+                            <p>Pricing<br><span>20AED</span></p>
+                            <a href="#">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tournaments -->
+        <div class="tournaments animeX" id="tournaments">
+            <h2>Live Tournaments</h2>
+            <ul> 
+
+            <div class="cardbx">
+                <div class="card" data-item="pc">
+                    <img src="fortnite.jpg">
+                    <div class="content">
+                        <h4>20 Matches Ongoing....</h4>
+                        <p>Count me in for victory!</p>
+                        <div class="info">
+                            <a href="#">Watch</a>
+                            <a href="#">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="Fall-Guys-Key-Art_Thumb-1.webp">
+                    <div class="content">
+                        <h4>35 Matches Ongoing....</h4>
+                        <p>Count me in for victory!</p>
+                        <div class="info">
+                            <a href="#">Watch</a>
+                            <a href="#">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="935807-pubg-new.jpg">
+                    <div class="content">
+                        <h4>40 Matches Ongoing....</h4>
+                        <p>Count me in for victory!</p>
+                        <div class="info">
+                            <a href="#">Watch</a>
+                            <a href="#">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="maxresdefault (1).jpg">
+                    <div class="content">
+                        <h4>45 Servers Active....</h4>
+                        <p>Ready to play? Let's begin!</p>
+                        <div class="info">
+                            <a href="#">Watch</a>
+                            <a href="#">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" data-item="pc">
+                    <img src="ca.jpeg">
+                    <div class="content">
+                        <h4>25 Matches Ongoing....</h4>
+                        <p>Count me in for victory!</p>
+                        <div class="info">
+                            <a href="#">Watch</a>
+                            <a href="#">Join Now</a>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="card" data-item="pc">
+                   <img src="things-to-build-in-minecraft-floating-base.jpg">
+                   <div class="content">
+                       <h4>30 Servers Active....</h4>
+                       <p>Ready to play? Let's begin!</p>
+                       <div class="info">
+                           <a href="#">Watch</a>
+                           <a href="#">Join Now</a>
+                       </div>
+                   </div>
+               </div>
+
+        <!-- Contact -->
+        <div class="contact animeX" id="contact"> 
+            <img src="maxresdefault.jpg">
+            <div class="form">
+                <h1>Contact Us</h1>
+                <div class="input8x">
+                    <p>Enter Name</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="input8x">
+                    <p>Enter Email</p>
+                    <input type="text" placeholder="Full Name">
+                </div>
+                <div class="input8x">
+                    <p>Message</p>
+                    <textarea placeholder="Type here..."></textarea>
+                </div>
+                <div class="input8x">
+                    <input type="submit" name="submit">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="info">
+                <a href="#" class="logo">Agitator</a>
+                 <p><box-icon name='copyright'></box-icon>2023 All Rights Reserved</p>
+                <ul>
+                    <li><a href="#"><box-icon type='logo' name='facebook'></box-icon></a></li>
+                    <li><a href="#"><box-icon type='logo' name='instagram'></box-icon></a></li>
+                    <li><a href="#"><box-icon name='twitter' type='logo' ></box-icon></a></li>
+                    <li><a href="#"><box-icon name='youtube' type='logo' ></box-icon></a></li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+            /* Sticky NavBar */
+            window.addEventListener('scroll',function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky',window.scrollY > 0);
+            });
+
+            /* Responsive Navbar */
+
+            function toggleMenu(){
+                const toggleMenu = document.querySelector('toggleMenu');
+                const nav = document.querySelector('.nav');
+                toggleMenu.classList.toggle('active')
+                nav.classList.toggle('active')
+            }
+
+            /* Filterable Cards*/
+
+            let list = document.querySelectorAll('list');
+            let card = document.querySelectorAll('.card');
+
+            for(let i = 0; i<list.length; i++){
+                list[i].addEventListener('click',function(){
+                    for(let j=0; j<list.lenght; j++){
+                        list[j].classList.remove('active');
+                    }
+                    this.classList.add('active')
+
+                    let dataFilter = this.getAttribute('data-filter');
+
+                    for(let k=0; k<card.length; k++)
+                    {
+                        card[k].classList.remove('active');
+                        card[k].classList.add('hide');
+
+                        if(card[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                            card[k].classList.remove('hide');
+                            card[k].classList.add('active');
+                        }
+                    }
+                })
+            }
+        </script>
+
+       
+    </body>    
+</html>
